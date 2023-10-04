@@ -33,9 +33,9 @@ public class InterpretDrawingFile {
 		double x3=in.nextDouble();
 		double y3=in.nextDouble();
 		StdDraw.setPenColor(hahaha); //or use a custom color here!
-        double[] xVertices = { x1, x2, x3 };
-        double[] yVertices = { y1, y2, y3 };
-	     StdDraw.filledPolygon(xVertices, yVertices);
+        double[] xCoordinate = { x1, x2, x3 };
+        double[] yCoordinate = { y1, y2, y3 };
+	     StdDraw.filledPolygon(xCoordinate, yCoordinate);
 		//StdDraw.filledSquare(0.5, 0.5, 0.2);
 	}
 }
